@@ -100,20 +100,7 @@ body {
         }
 
         button {
-            all: unset;
-            width: 160px;
-            height: auto;
-            padding: 12px;
-            border: 2px solid black;
-            border-radius: 50px;
-            text-align: center;
-            text-overflow: ellipsis;
-            font-weight: 500;
-            transition: all 0.3s ease-in-out;
-
-            &:hover {
-                color: #77564D;
-            }
+        @include button_purchase
         }
     }
 }
@@ -152,5 +139,59 @@ body {
         }
     p{
         text-align: justify;
+    }
+}
+
+.tittle_learn{
+    width: 300px;
+    height: 40px;
+
+    h3{
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+}
+
+.sponsors{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    .container_sponsors{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img{
+            width: 70px;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    
+    }
+    button{
+        @include button_purchase
+    }
+
+}
+
+.bg_slide{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 20px;
+    
+    h3{
+        width: 300px;
+        height: 30px;
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
     }
 }

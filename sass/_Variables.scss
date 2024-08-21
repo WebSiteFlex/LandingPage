@@ -4,3 +4,22 @@ $color_text: #1D1E21;
 //colors locals
 
 $color_bg_hide_bar: #EF9C83;
+
+//Styles button Purchase
+
+@mixin button_purchase{
+    all: unset;
+    width: 160px;
+    height: auto;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: #77564D;
+    }
+}

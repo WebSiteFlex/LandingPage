@@ -130,4 +130,64 @@ body {
   text-align: justify;
 }
 
+.tittle_learn {
+  width: 300px;
+  height: 40px;
+}
+.tittle_learn h3 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.sponsors {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.sponsors .container_sponsors {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sponsors .container_sponsors img {
+  width: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.sponsors button {
+  all: unset;
+  width: 160px;
+  height: auto;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.sponsors button:hover {
+  color: #77564D;
+}
+
+.bg_slide {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 20px;
+}
+.bg_slide h3 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
 /*# sourceMappingURL=style.css.map */
