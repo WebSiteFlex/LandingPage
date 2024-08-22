@@ -181,6 +181,7 @@ body {
   width: 100%;
   height: 2.5rem;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .bg_slide h3 {
   width: 300px;
@@ -188,6 +189,160 @@ body {
   text-align: center;
   font-weight: 500;
   letter-spacing: 1px;
+}
+
+.important_container {
+  width: 300px;
+  height: 300px;
+  margin-top: 380px;
+}
+.important_container h4 {
+  width: 100%;
+  height: 30px;
+  color: #1D1E21;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.important_container .container_img_sponsors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 2fr);
+  gap: 1px;
+  padding: 30px;
+}
+.important_container .container_img_sponsors .container_imggrid_sponsors img {
+  width: 100%;
+  object-fit: fill;
+}
+
+footer .container_form_action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: auto;
+  background-image: url("/LandingPage/img/Fre-digital2.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+  background-color: #EF9C83;
+  padding: 35px;
+}
+footer .container_form_action h2 {
+  width: auto;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #1D1E21;
+}
+footer .container_form_action .cont_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container_form_action .cont_button button {
+  all: unset;
+  width: auto;
+  all: unset;
+  width: 160px;
+  height: auto;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  margin-top: -80px;
+  background-image: linear-gradient(to top, white, gray);
+  border: none;
+}
+footer .container_form_action .cont_button button:hover {
+  color: #77564D;
+}
+footer .container_footer_1 {
+  width: 100%;
+  height: 350px;
+}
+footer .container_form_action_signpu {
+  width: auto;
+  background-color: #1D1E21;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+footer .container_form_action_signpu h4 {
+  width: auto;
+  height: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+}
+footer .container_form_action_signpu .form_signUp {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  margin-top: 20px;
+}
+footer .container_form_action_signpu .form_signUp input {
+  all: unset;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  border: 1px solid #EF9C83;
+  text-align: center;
+}
+footer .container_form_action_signpu .form_signUp input:focus {
+  outline: #f1aa95;
+}
+footer .container_form_action_signpu .form_signUp button {
+  all: unset;
+  all: unset;
+  width: 160px;
+  height: auto;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: center;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  background-color: #EF9C83;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+footer .container_form_action_signpu .form_signUp button:hover {
+  color: #77564D;
+}
+footer .container_form_action_signpu .form_signUp buttonhover {
+  background-color: #d68b75;
+}
+footer .container_form_action_signpu .location {
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+footer .container_form_action_signpu .social_media_container {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+footer .container_form_action_signpu .social_media_container li > img {
+  width: 40px;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
