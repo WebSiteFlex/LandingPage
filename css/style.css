@@ -27,35 +27,35 @@ body {
   grid-area: sec1;
 }
 .navbar_container .elements_web .container_icon_media img {
-  width: 65px;
+  width: 4.0625rem;
   height: auto;
-  margin-top: 1.125rem;
-  margin-left: 0.9375rem;
+  margin-top: 18px;
+  margin-left: 15px;
 }
 .navbar_container .elements_web .container_icon_media2 {
   grid-area: sec2;
 }
 .navbar_container .elements_web .container_icon_media2 p {
-  font-size: 1.4375rem;
+  font-size: 23px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 .navbar_container .elements_web .container_icon_media3 {
   grid-area: sec3;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
 }
 
 .bg_hidebar .cotainer_social_media {
-  width: 130px;
+  width: 8.125rem;
 }
 .bg_hidebar .cotainer_social_media .icon_socialmedia {
-  width: 30px;
+  width: 1.875rem;
 }
 
 .reserve_your_spot {
   width: 100%;
-  height: 25rem;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,21 +63,21 @@ body {
   background-position: center center;
   background-attachment: cover;
   background-repeat: no-repeat;
-  background-size: 400px;
+  background-size: 25rem;
   background-origin: border-box;
 }
 .reserve_your_spot .container_content {
-  width: 300px;
+  width: 18.75rem;
   height: auto;
-  padding: 15px;
+  padding: 0.9375rem;
 }
 .reserve_your_spot .container_content h1 {
   font-weight: 600;
   line-height: 1;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 .reserve_your_spot .container_content h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 300;
 }
 .reserve_your_spot .container_content button {
@@ -98,11 +98,11 @@ body {
 
 .user_experence {
   width: 100%;
-  height: 760px;
+  height: 47.5rem;
 }
 .user_experence .container_user {
   width: 100%;
-  height: 300px;
+  height: 18.75rem;
   background-image: url("/LandingPage/img/miss.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -110,16 +110,16 @@ body {
 }
 .user_experence .container_user h2 {
   position: absolute;
-  width: 100px;
-  font-size: 32px;
+  width: 6.25rem;
+  font-size: 2rem;
   font-weight: 500;
-  margin-top: 40px;
-  margin-left: 30px;
+  margin-top: 2.5rem;
+  margin-left: 1.875rem;
 }
 .user_experence .container_text_user {
   width: 100%;
   height: auto;
-  padding: 25px;
+  padding: 1.5625rem;
 }
 .user_experence .container_text_user h4 {
   text-align: start;
@@ -131,8 +131,8 @@ body {
 }
 
 .tittle_learn {
-  width: 300px;
-  height: 40px;
+  width: 18.75rem;
+  height: 2.5rem;
 }
 .tittle_learn h3 {
   text-align: center;
@@ -151,15 +151,15 @@ body {
 }
 .sponsors .container_sponsors {
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .sponsors .container_sponsors img {
-  width: 70px;
-  margin-right: 20px;
-  margin-left: 20px;
+  width: 4.375rem;
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
 }
 .sponsors button {
   all: unset;
@@ -179,38 +179,38 @@ body {
 
 .bg_slide {
   width: 100%;
-  height: 2.5rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  height: 40px;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 .bg_slide h3 {
-  width: 300px;
-  height: 30px;
+  width: 18.75rem;
+  height: 1.875rem;
   text-align: center;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 
 .important_container {
-  width: 300px;
-  height: 300px;
-  margin-top: 380px;
+  width: 18.75rem;
+  height: 18.75rem;
+  margin-top: 23.75rem;
 }
 .important_container h4 {
   width: 100%;
-  height: 30px;
+  height: 1.875rem;
   color: #1D1E21;
   text-align: center;
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 1.875rem;
+  margin-bottom: 1.25rem;
 }
 .important_container .container_img_sponsors {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   grid-template-rows: repeat(2, 2fr);
-  gap: 1px;
-  padding: 30px;
+  gap: 0.0625rem;
+  padding: 1.875rem;
 }
 .important_container .container_img_sponsors .container_imggrid_sponsors img {
   width: 100%;
@@ -227,13 +227,13 @@ footer .container_form_action {
   background-size: contain;
   background-position: bottom center;
   background-color: #EF9C83;
-  padding: 35px;
+  padding: 2.1875rem;
 }
 footer .container_form_action h2 {
   width: auto;
   text-align: center;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #1D1E21;
 }
 footer .container_form_action .cont_button {
@@ -254,7 +254,7 @@ footer .container_form_action .cont_button button {
   text-overflow: ellipsis;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
-  margin-top: -80px;
+  margin-top: -5rem;
   background-image: linear-gradient(to top, white, gray);
   border: none;
 }
@@ -263,7 +263,7 @@ footer .container_form_action .cont_button button:hover {
 }
 footer .container_footer_1 {
   width: 100%;
-  height: 350px;
+  height: 21.875rem;
 }
 footer .container_form_action_signpu {
   width: auto;
@@ -272,31 +272,31 @@ footer .container_form_action_signpu {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 footer .container_form_action_signpu h4 {
   width: auto;
-  height: 40px;
+  height: 2.5rem;
   text-align: center;
   color: white;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 footer .container_form_action_signpu .form_signUp {
   width: 100%;
-  padding: 10px;
+  padding: 0.625rem;
   display: flex;
   flex-direction: column;
   justify-self: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 footer .container_form_action_signpu .form_signUp input {
   all: unset;
   width: 100%;
-  padding: 5px;
+  padding: 0.3125rem;
   color: white;
-  border: 1px solid #EF9C83;
+  border: 0.0625rem solid #EF9C83;
   text-align: center;
 }
 footer .container_form_action_signpu .form_signUp input:focus {
@@ -318,7 +318,7 @@ footer .container_form_action_signpu .form_signUp button {
   background-color: #EF9C83;
   text-align: center;
   text-transform: capitalize;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   transition: all 0.3s ease-in-out;
 }
 footer .container_form_action_signpu .form_signUp button:hover {
@@ -329,7 +329,7 @@ footer .container_form_action_signpu .form_signUp buttonhover {
 }
 footer .container_form_action_signpu .location {
   color: white;
-  font-size: 17px;
+  font-size: 1.0625rem;
   text-align: center;
 }
 footer .container_form_action_signpu .social_media_container {
@@ -338,11 +338,107 @@ footer .container_form_action_signpu .social_media_container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 footer .container_form_action_signpu .social_media_container li > img {
-  width: 40px;
+  width: 2.5rem;
   height: auto;
+}
+
+@media (min-width: 48rem) and (max-width: 87.5rem) {
+  .gridTemplate .reserve_your_spot {
+    background-size: 100%;
+    justify-content: start;
+    margin-bottom: 3.75rem;
+  }
+  .gridTemplate .reserve_your_spot .container_content {
+    width: 37.5rem;
+  }
+  .gridTemplate .reserve_your_spot .container_content h1 {
+    font-size: 2.625rem;
+  }
+  .gridTemplate .reserve_your_spot .container_content h2 {
+    font-size: 1.875rem;
+    margin-top: 0.9375rem;
+  }
+  .gridTemplate .reserve_your_spot button {
+    margin-top: 2ch;
+  }
+  .gridTemplate .user_experence {
+    width: 90%;
+    height: 40.625rem;
+  }
+  .gridTemplate .user_experence .container_user {
+    background-size: 31.25rem;
+    background-position: left;
+  }
+  .gridTemplate .user_experence .container_user h2 {
+    right: 11.25rem;
+  }
+  .gridTemplate .user_experence .container_text_user {
+    width: 90%;
+    margin-left: 8.125rem;
+  }
+  .gridTemplate .tittle_learn {
+    width: 100%;
+    height: 3.75rem;
+  }
+  .gridTemplate .tittle_learn h3 {
+    font-size: 2.5rem;
+  }
+  .gridTemplate .sponsors {
+    height: 25rem;
+  }
+  .gridTemplate .sponsors .container_sponsors img {
+    width: 8.125rem;
+    object-fit: contain;
+  }
+  .gridTemplate .sponsors .container_sponsors div > p {
+    font-size: 1.5rem;
+  }
+  .gridTemplate .text-carrousel {
+    width: 100%;
+    height: auto;
+    margin-top: 1.875rem;
+  }
+  .gridTemplate .text-carrousel h3 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .gridTemplate .carousel_section {
+    width: 90%;
+    height: 25rem;
+  }
+  .gridTemplate .important_container {
+    width: 100%;
+    height: 21.875rem;
+    margin-top: none;
+  }
+  .gridTemplate .important_container h4 {
+    font-size: 3.125rem;
+    margin-bottom: 4.1875rem;
+  }
+  .gridTemplate .important_container .container_img_sponsors {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(4, 2fr);
+    padding: 0.625rem;
+    margin-top: 1.875rem;
+  }
+  .gridTemplate .important_container .container_img_sponsors .container_imggrid_sponsors img {
+    width: 10rem;
+    object-fit: contain;
+  }
+  .gridTemplate .container_form_action h2 {
+    background-color: white;
+    opacity: 80%;
+    padding: 5px;
+    font-size: 26px;
+    border-radius: 10px;
+  }
+  .gridTemplate .container_form_action .cont_button button {
+    width: 200px;
+    font-size: 22px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -30,10 +30,10 @@ body {
             grid-area: sec1;
 
             img {
-                width: 65px;
+                width: 4.0625rem;
                 height: auto;
-                margin-top: 1.125rem;
-                margin-left: 0.9375rem;
+                margin-top: 18px;
+                margin-left: 15px;
             }
         }
 
@@ -41,7 +41,7 @@ body {
             grid-area: sec2;
 
             p {
-                font-size: 1.4375rem;
+                font-size: 23px;
                 font-family: "Montserrat", sans-serif;
                 font-weight: 500;
             }
@@ -50,7 +50,7 @@ body {
 
         .container_icon_media3 {
             grid-area: sec3;
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 400;
         }
     }
@@ -59,10 +59,10 @@ body {
 
 .bg_hidebar {
     .cotainer_social_media {
-        width: 130px;
+        width: 8.125rem;
 
         .icon_socialmedia {
-            width: 30px;
+            width: 1.875rem;
         }
     }
 
@@ -72,7 +72,7 @@ body {
 
 .reserve_your_spot {
     width: 100%;
-    height: 25rem;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,80 +80,82 @@ body {
     background-position: center center;
     background-attachment: cover;
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 25rem;
     background-origin: border-box;
 
     .container_content {
-        width: 300px;
+        width: 18.75rem;
         height: auto;
-        padding: 15px;
+        padding: 0.9375rem;
 
         h1 {
             font-weight: 600;
             line-height: 1;
-            letter-spacing: 1px;
+            letter-spacing: 0.0625rem;
         }
 
         h2 {
-            font-size: 18px;
+            font-size: 1.125rem;
             font-weight: 300;
         }
 
         button {
-        @include button_purchase
+            @include button_purchase
         }
     }
 }
 
-.user_experence{
+.user_experence {
     width: 100%;
-    height: 760px;
+    height: 47.5rem;
 
-        .container_user{
-            width: 100%;
-            height: 300px;
-            background-image:url("/LandingPage/img/miss.webp");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            h2{
-                position: absolute;
-                width: 100px;
-                font-size: 32px;
-                font-weight: 500;
-                margin-top: 40px;
-                margin-left: 30px;
-            }
-        }
-        
-        .container_text_user{
-            width: 100%;
-            height: auto;
-            padding: 25px;
+    .container_user {
+        width: 100%;
+        height: 18.75rem;
+        background-image: url("/LandingPage/img/miss.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
 
-            h4{
-                text-align: start;
-                font-weight: 500;
-                line-height: 1.2;
-            }
+        h2 {
+            position: absolute;
+            width: 6.25rem;
+            font-size: 2rem;
+            font-weight: 500;
+            margin-top: 2.5rem;
+            margin-left: 1.875rem;
         }
-    p{
+    }
+
+    .container_text_user {
+        width: 100%;
+        height: auto;
+        padding: 1.5625rem;
+
+        h4 {
+            text-align: start;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+    }
+
+    p {
         text-align: justify;
     }
 }
 
-.tittle_learn{
-    width: 300px;
-    height: 40px;
+.tittle_learn {
+    width: 18.75rem;
+    height: 2.5rem;
 
-    h3{
+    h3 {
         text-align: center;
         text-transform: capitalize;
         font-weight: 500;
     }
 }
 
-.sponsors{
+.sponsors {
     width: 100%;
     height: auto;
     display: flex;
@@ -162,63 +164,66 @@ body {
     align-items: center;
     flex-wrap: nowrap;
 
-    .container_sponsors{
+    .container_sponsors {
         width: 100%;
-        height: 100px;
+        height: 6.25rem;
         display: flex;
         justify-content: space-around;
         align-items: center;
 
-        img{
-            width: 70px;
-            margin-right: 20px;
-            margin-left: 20px;
+        img {
+            width: 4.375rem;
+            margin-right: 1.25rem;
+            margin-left: 1.25rem;
         }
-    
+
     }
-    button{
+
+    button {
         @include button_purchase
     }
 
 }
 
-.bg_slide{
+.bg_slide {
     width: 100%;
-    height: 2.5rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    h3{
-        width: 300px;
-        height: 30px;
+    height: 40px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+
+    h3 {
+        width: 18.75rem;
+        height: 1.875rem;
         text-align: center;
         font-weight: 500;
-        letter-spacing: 1px;
+        letter-spacing: 0.0625rem;
     }
 }
 
-.important_container{
-    width: 300px;
-    height: 300px;
-    margin-top: 380px;
+.important_container {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin-top: 23.75rem;
 
-    h4{
+    h4 {
         width: 100%;
-        height: 30px;
-        color:$color_text;
+        height: 1.875rem;
+        color: $color_text;
         text-align: center;
-        font-size: 30px;
-        margin-bottom: 20px;
+        font-size: 1.875rem;
+        margin-bottom: 1.25rem;
     }
-    .container_img_sponsors{
+
+    .container_img_sponsors {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(2,2fr);
-        grid-template-rows: repeat(2,2fr);
-        gap: 1px;
-        padding: 30px;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 2fr);
+        gap: 0.0625rem;
+        padding: 1.875rem;
 
-        .container_imggrid_sponsors{
-            img{
+        .container_imggrid_sponsors {
+            img {
                 width: 100%;
                 object-fit: fill;
             }
@@ -227,8 +232,8 @@ body {
 }
 
 
-footer{
-    .container_form_action{
+footer {
+    .container_form_action {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -237,107 +242,243 @@ footer{
         background-repeat: no-repeat;
         background-size: contain;
         background-position: bottom center;
-        background-color:#EF9C83 ;
-        padding: 35px;
+        background-color: #EF9C83;
+        padding: 2.1875rem;
 
-        h2{
+        h2 {
             width: auto;
             text-align: center;
             text-transform: capitalize;
-            font-size: 20px;
+            font-size: 1.25rem;
             color: $color_text;
         }
-        .cont_button{
+
+        .cont_button {
             display: flex;
             justify-content: center;
             align-items: center;
-            button{
-                all: unset ;
+
+            button {
+                all: unset;
                 width: auto;
-               @include button_purchase;
-                margin-top: -80px;
+                @include button_purchase;
+                margin-top: -5rem;
                 background-image: linear-gradient(to top, white, gray);
                 border: none;
-              
+
             }
         }
     }
-    .container_footer_1{
+
+    .container_footer_1 {
         width: 100%;
-        height: 350px;
+        height: 21.875rem;
     }
 
-    .container_form_action_signpu{
-        width: auto ;
+    .container_form_action_signpu {
+        width: auto;
         background-color: #1D1E21;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        padding: 20px;
+        padding: 1.25rem;
 
-        h4{
+        h4 {
             width: auto;
-            height: 40px;
+            height: 2.5rem;
             text-align: center;
             color: white;
             font-weight: 500;
-            margin-top: 20px;
+            margin-top: 1.25rem;
         }
-        .form_signUp{
+
+        .form_signUp {
             width: 100%;
-            padding: 10px;
+            padding: 0.625rem;
             display: flex;
             flex-direction: column;
             justify-self: center;
             align-items: center;
-            margin-top: 20px;
+            margin-top: 1.25rem;
 
-            input{
-                all: unset ;
+            input {
+                all: unset;
                 width: 100%;
-                padding: 5px;
+                padding: 0.3125rem;
                 color: white;
-                border: 1px solid #EF9C83 ;
+                border: 0.0625rem solid #EF9C83;
                 text-align: center;
 
-                &:focus{
+                &:focus {
                     outline: #f1aa95;
                 }
             }
-            button{
-                all: unset ;
+
+            button {
+                all: unset;
                 @include button_purchase;
                 border: none;
                 background-color: #EF9C83;
                 text-align: center;
                 text-transform: capitalize;
-                margin-top: 20px;
+                margin-top: 1.25rem;
                 transition: all 0.3s ease-in-out;
 
-                &hover{
+                &hover {
                     background-color: #d68b75;
                 }
             }
 
         }
-        .location{
+
+        .location {
             color: white;
-            font-size: 17px;
+            font-size: 1.0625rem;
             text-align: center;
         }
-        .social_media_container{
+
+        .social_media_container {
             width: 100%;
             list-style: none;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin-top: 20px;
-    
+            margin-top: 1.25rem;
 
-            li > img{
-                width: 40px;
+
+            li>img {
+                width: 2.5rem;
                 height: auto;
+            }
+        }
+    }
+}
+
+// preview Ipad
+
+@media (min-width: 48rem) and (max-width: 87.5rem) {
+    .gridTemplate {
+
+        .reserve_your_spot {
+            background-size: 100%;
+            justify-content: start;
+            margin-bottom: 3.75rem;
+
+            .container_content {
+                width: 37.5rem;
+
+                h1{
+                    font-size: 2.625rem;
+                }
+                h2{
+                    font-size: 1.875rem;
+                    margin-top: 0.9375rem;
+                }
+            }
+
+            button {
+                margin-top: 2ch;
+            }
+
+        }
+
+        .user_experence{
+            width: 90%;
+            height: 40.625rem;
+
+            .container_user{
+                background-size:31.25rem;
+                background-position: left;
+
+                h2{
+                    right: 11.25rem;
+                }
+            }
+            .container_text_user{
+                width:90%;
+                margin-left: 8.125rem;
+            }
+        }
+
+
+        .tittle_learn{
+            width: 100%;
+            height: 3.75rem;
+            h3{
+                font-size: 2.5rem;
+            }
+        }
+
+        .sponsors{
+            height: 25rem;
+
+            .container_sponsors{
+                img{
+                    width: 8.125rem;
+                    object-fit: contain;
+                }
+
+                div > p{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .text-carrousel{
+            width: 100%;
+            height: auto;
+            margin-top: 1.875rem;
+
+            h3{
+                text-align: center;
+                font-size: 2rem;
+            }
+        }
+        .carousel_section{
+            width: 90%;
+            height: 25rem;
+        }
+
+        .important_container{
+            width: 100%;
+            height: 21.875rem;
+            margin-top: none;
+            h4{
+                font-size:3.125rem ;
+                margin-bottom: 4.1875rem;
+            }
+
+            .container_img_sponsors{
+                grid-template-columns: repeat(4,2fr);
+                grid-template-rows: repeat(4,2fr);
+                padding: 0.625rem;
+                margin-top: 1.875rem;
+
+                .container_imggrid_sponsors{
+                    
+                    img{
+                        width: 10rem;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+
+        .container_form_action{
+            h2{
+                background-color: white;
+                opacity: 80% ;
+                padding: 5px;
+                font-size: 26px;
+                border-radius: 10px;
+            }
+
+            .cont_button {
+                 button{
+                    width: 200px;
+                    font-size: 22px;
+                 }
             }
         }
     }
