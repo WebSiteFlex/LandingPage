@@ -9,14 +9,15 @@ $color_bg_hide_bar: #EF9C83;
 
 @mixin button_purchase{
     all: unset;
-    width: 160px;
+    width: auto;
     height: auto;
-    padding: 12px;
+    padding: 10px;
     border: 2px solid black;
     border-radius: 50px;
     text-align: center;
     text-overflow: ellipsis;
     font-weight: 500;
+    font-size: auto;
     transition: all 0.3s ease-in-out;
 
     &:hover {
