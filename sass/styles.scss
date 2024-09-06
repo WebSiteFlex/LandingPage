@@ -156,36 +156,60 @@ body {
 }
 
 .sponsors {
-    width: 100%;
+    width: 72%;
     height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin-top: 30px;
-    margin-bottom: 30px;
+   display: grid;
+   grid-template-columns: repeat(2, 2fr);
+   grid-template-rows: repeat(3,2fr);
+   grid-template-areas: 
+   "img-s-1 paragraph-s-1"
+   "img-s-2 paragraph-s-2"
+   "img-s-3 paragraph-s-3";
 
-    .container_sponsors {
-        width: 100%;
-        height: 6.25rem;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+   img{
+    width: 120px;
+   }
+   
+   p{
+    text-align: justify;
 
-        img {
-            width: 4.375rem;
-            margin-right: 1.25rem;
-            margin-left: 1.25rem;
-        }
+   }
 
-    }
+  .img_sponsors_1{
+    grid-area: img-s-1;
+  }
+  .img_sponsors_2{
+    grid-area: img-s-2
+  }
+  .img_sponsors_3{
+    grid-area: img-s-3;
+  }
+  .paragraph_sponsors_1{
+    grid-area: paragraph-s-1;
+  }
 
-    button {
-        @include button_purchase
-    }
+  .paragraph_sponsors_2{
+    grid-area: paragraph-s-2;
+  }
+
+  .paragraph_sponsors_3{
+    grid-area: paragraph-s-3;
+  }
 
 }
+
+.container_button_purchase{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    .button_purchase{
+        @include button_purchase;
+    }
+}
+
 
 
 .important_container {
@@ -305,8 +329,10 @@ footer {
 
             button {
                 all: unset;
-                @include button_purchase;
+                width: 200px;
+                padding: 10px;
                 border: none;
+                border-radius: 30px;
                 background-color: #EF9C83;
                 text-align: center;
                 text-transform: capitalize;
@@ -391,7 +417,7 @@ footer {
 
 
         .tittle_learn{
-            width: 100%;
+            width: 90%;
             height: 3.75rem;
             h3{
                 font-size: 2.5rem;
@@ -399,18 +425,19 @@ footer {
         }
 
         .sponsors{
+            width: 640px;
             height: 25rem;
-
-            .container_sponsors{
+           padding: 30px;
+           
                 img{
                     width: 8.125rem;
                     object-fit: contain;
                 }
 
-                div > p{
+                 p{
                     font-size: 1.5rem;
                 }
-            }
+            
         }
 
         
@@ -462,5 +489,9 @@ footer {
                  }
             }
         }
+
+      
     }
+
+    
 }
